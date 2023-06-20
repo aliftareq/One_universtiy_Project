@@ -1,0 +1,19 @@
+{
+  "name": "one_university_project",
+  "version": "1.0.0",
+  "description": "\"this is a project for backend application of an university\"",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alif",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.0"
+  }
+}
