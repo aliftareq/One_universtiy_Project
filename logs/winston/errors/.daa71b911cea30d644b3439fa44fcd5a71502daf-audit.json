@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\.daa71b911cea30d644b3439fa44fcd5a71502daf-audit.json",
+    "files": [
+        {
+            "date": 1687456850892,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-23-06-00-error.log",
+            "hash": "80d84d9f7dec4a36ea6d3c45c9151eb5c0a4aa453357648314c377d8e6a2d0d9"
+        }
+    ],
+    "hashType": "sha256"
+}
