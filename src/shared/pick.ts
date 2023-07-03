@@ -9,6 +9,7 @@ const pick = <T extends object, k extends keyof T>(
       finalObject[key] = obj[key];
     }
   }
+  // console.log(finalObject);
 
   return finalObject;
 };
