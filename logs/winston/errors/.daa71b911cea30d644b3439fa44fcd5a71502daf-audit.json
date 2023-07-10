@@ -6,36 +6,6 @@
     "auditLog": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\.daa71b911cea30d644b3439fa44fcd5a71502daf-audit.json",
     "files": [
         {
-            "date": 1687456850892,
-            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-23-06-00-error.log",
-            "hash": "80d84d9f7dec4a36ea6d3c45c9151eb5c0a4aa453357648314c377d8e6a2d0d9"
-        },
-        {
-            "date": 1687575215962,
-            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-24-06-08-error.log",
-            "hash": "be70eb37a4aea0ce1641e7ab704347342d2eb42f42263d0e9ef714b03595792a"
-        },
-        {
-            "date": 1687577739168,
-            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-24-06-09-error.log",
-            "hash": "6a0b4808fad496793802fb0c7ea140fa95488674bd54112da31ee0e843452b27"
-        },
-        {
-            "date": 1687579333868,
-            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-24-06-10-error.log",
-            "hash": "0eba05ccdba4e4e65b8a26f77b9c2d546a28d35a10cfbd4df0615a7bf0dc749c"
-        },
-        {
-            "date": 1687587434662,
-            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-24-06-12-error.log",
-            "hash": "2d89f5e47c09a125b923bed3ed5ee5cd2e1a344d733a3378f79dc454001e0324"
-        },
-        {
-            "date": 1687590175248,
-            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-24-06-13-error.log",
-            "hash": "91a1157cb4026cd6bebe00b892d4fa5265b033c55cd5acc7bb34e4cb072aef2d"
-        },
-        {
             "date": 1687835459718,
             "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-27-06-09-error.log",
             "hash": "bb12f89e7f5ea24cce9950745ee9058623834c71a890f46ad57e2ca5e630a53f"
@@ -204,6 +174,136 @@
             "date": 1688354506577,
             "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-03-07-09-error.log",
             "hash": "34d2c0d959986f33de6734750dfe269644df07f48d7940a9468ef817f0a23bc3"
+        },
+        {
+            "date": 1688360136278,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-03-07-10-error.log",
+            "hash": "1b7fa068f4a3bc95ddacc298746c923d310a4ceb189cc6d57e927f356c7a2698"
+        },
+        {
+            "date": 1688360501613,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-03-07-11-error.log",
+            "hash": "ca9cb8563c481982d77616ffe91d137150ef4ddae0c417cf2ae01af3e8b93288"
+        },
+        {
+            "date": 1688364120130,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-03-07-12-error.log",
+            "hash": "ff3ed85e09487d4361a171f553d8c03799a8351a92e4612fd33356b69edf6e81"
+        },
+        {
+            "date": 1688382934217,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-03-07-17-error.log",
+            "hash": "d03ce7493c564c889c9c3efcf817abf822c869123413eaa6837b8d6b25ec163c"
+        },
+        {
+            "date": 1688386716827,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-03-07-18-error.log",
+            "hash": "56652cd45195c9149357fb5bfe9172cbb7aea6260d071c221fb711fbdd5d1889"
+        },
+        {
+            "date": 1688389956824,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-03-07-19-error.log",
+            "hash": "d5fb02863c47baf72359f9e05631c17bdd1320c40063ab718c459d443b3f569d"
+        },
+        {
+            "date": 1688392947268,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-03-07-20-error.log",
+            "hash": "faedda251e0e368219f7230ae30de0e843724ee9a8e31e027c06765f795874d9"
+        },
+        {
+            "date": 1688398016147,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-03-07-21-error.log",
+            "hash": "f2001c49ad242c6585aa5bc92b78507523dc50ddc8700677bf60cfad6db29c53"
+        },
+        {
+            "date": 1688521577197,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-05-07-07-error.log",
+            "hash": "ae2a964f6a651fcbe9776bb5c2dbd6de9be45a643893d401c91b06b42f14d74d"
+        },
+        {
+            "date": 1688522474598,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-05-07-08-error.log",
+            "hash": "09d092601b5a985c33ee2d40bafc329236d3bfa79b40e641de0470119402474d"
+        },
+        {
+            "date": 1688527765132,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-05-07-09-error.log",
+            "hash": "cc1293d041277b1272c24e4c6cf89406d1c7eab106604c9b2cef15fd3d98243d"
+        },
+        {
+            "date": 1688530174419,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-05-07-10-error.log",
+            "hash": "cbecd6db86643fa09778fac999614a93b44dcfe61906c7d9191aaee467dd9c4d"
+        },
+        {
+            "date": 1688630075101,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-06-07-13-error.log",
+            "hash": "bd415d6a5612f2525dd7b77ddccda856bb7f9124fd776c1e00e0fd0bbdc319e2"
+        },
+        {
+            "date": 1688781680258,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-08-07-08-error.log",
+            "hash": "2a6b7d4f568fcad778f7b5a6b5ec0d8b98038b6ad74c86e09156ec75c79b5b7f"
+        },
+        {
+            "date": 1688787578105,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-08-07-09-error.log",
+            "hash": "e300cfbb1d4995ea43c1afaaf6dd69391dce8b797f4eddeb7b09542bd15d765f"
+        },
+        {
+            "date": 1688792435556,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-08-07-11-error.log",
+            "hash": "8b707dbc9052fc2b71b982acde88ae35176e9a30fdcdc0372424222c59efcadb"
+        },
+        {
+            "date": 1688798439138,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-08-07-12-error.log",
+            "hash": "28202ccaefde63270fc0a0204592fea1c35670358a21f920276844201e5e7628"
+        },
+        {
+            "date": 1688800267448,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-08-07-13-error.log",
+            "hash": "eb2062716db5c4df080399ef01ea44bad15e81ccd8ed26aa2d7874c37139f640"
+        },
+        {
+            "date": 1688803908529,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-08-07-14-error.log",
+            "hash": "d44f1536f507632f126c1db51b26aa7c06690ef627d3ac23a243960f61b60187"
+        },
+        {
+            "date": 1688806804299,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-08-07-15-error.log",
+            "hash": "b73afc37e35631d4c0582988cb841aa26622b651498b15295ddf8a60a6ae7ce4"
+        },
+        {
+            "date": 1688879839252,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-09-07-11-error.log",
+            "hash": "93c4314becc5cc9db7be548f94c7b5f4d2ce10c663210cf90340cfcea4fc45c0"
+        },
+        {
+            "date": 1688883742002,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-09-07-12-error.log",
+            "hash": "00f6b6aed06d3f99ba10a38f0c4e0c704c83f71781ab823733c9940ffbcacbfe"
+        },
+        {
+            "date": 1688960459604,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-10-07-09-error.log",
+            "hash": "a132d38c26ac0958ab25926a35bfe69fdc0c4abc93c14cbd167999036bdd043a"
+        },
+        {
+            "date": 1688961915016,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-10-07-10-error.log",
+            "hash": "51eee1b755eb7928dd4e52cf8fbc2eaef40734b6ef55b228794a68980e50234d"
+        },
+        {
+            "date": 1688965425522,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-10-07-11-error.log",
+            "hash": "bd436693d656b985f6579fc4991c39a82486bc237acf3a58a2c56af4f2433f41"
+        },
+        {
+            "date": 1688970091322,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\errors\\phu-2023-10-07-12-error.log",
+            "hash": "9ef72e71fea6bb9a0ee31a5f45cb56e4970ca2fe22a93767f297da5619ee900a"
         }
     ],
     "hashType": "sha256"
