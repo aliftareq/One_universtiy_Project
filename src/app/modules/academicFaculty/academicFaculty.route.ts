@@ -19,7 +19,7 @@ router.get('/:id', AcademicFacultyController.getSingleFaculty);
 //update routes
 router.patch(
   '/:id',
-  validateRequest(AcademicFacultyValidation.createAcademicFacultyZodSchema),
+  validateRequest(AcademicFacultyValidation.updateAcademicFacultyZodSchema),
   AcademicFacultyController.updateFaculty
 );
 

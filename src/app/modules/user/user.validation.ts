@@ -135,7 +135,53 @@ const createFacultyZodSchema = z.object({
   }),
 });
 
+const createAdminZodSchema = z.object({
+  body: z.object({
+    password: z.string().optional(),
+    admin: z.object({
+      name: z.object({
+        firstName: z.string({ required_error: 'First Name is required!' }),
+        middleName: z
+          .string({ required_error: 'middle Name is required!' })
+          .optional(),
+        lastName: z.string({ required_error: 'last Name is required!' }),
+      }),
+      gender: z.enum([...gender] as [string, ...string[]], {
+        required_error: 'Gender is Required',
+      }),
+      dateOfBirth: z.string({
+        required_error: 'Date of Birth is required!',
+      }),
+      email: z
+        .string({
+          required_error: 'email is required',
+        })
+        .email(),
+      bloodGroup: z.enum([...bloodGroup] as [string, ...string[]]).optional(),
+      contactNo: z.string({
+        required_error: 'emergencey Contact required',
+      }),
+      emergencyContactNo: z.string({
+        required_error: 'emergencey Contact required',
+      }),
+      presentAddress: z.string({
+        required_error: 'emergencey Contact required',
+      }),
+      permanentAddress: z.string({
+        required_error: 'emergencey Contact required',
+      }),
+      managementDepartment: z.string({
+        required_error: 'managementDepartment is required',
+      }),
+      designation: z.string({
+        required_error: 'Academic department is required',
+      }),
+    }),
+  }),
+});
+
 export const userValidation = {
   createStudentZodSchema,
   createFacultyZodSchema,
+  createAdminZodSchema,
 };
