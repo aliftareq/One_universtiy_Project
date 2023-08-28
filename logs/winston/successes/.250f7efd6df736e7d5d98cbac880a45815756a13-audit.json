@@ -6,21 +6,6 @@
     "auditLog": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\successes\\.250f7efd6df736e7d5d98cbac880a45815756a13-audit.json",
     "files": [
         {
-            "date": 1691980861323,
-            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\successes\\phu-2023-14-08-08-success.log",
-            "hash": "a052b4d122ce32a3dad3c2f1ba1419d266011bf1e90ebc0c75b00cd228f69c46"
-        },
-        {
-            "date": 1691982358937,
-            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\successes\\phu-2023-14-08-09-success.log",
-            "hash": "6682a88f56bbc9ade971281b73d9515664094d62e8b5b173d2150c7706b6f856"
-        },
-        {
-            "date": 1691985631683,
-            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\successes\\phu-2023-14-08-10-success.log",
-            "hash": "4ee1330a05fdf9829389fae0ea7ac93e60befb73f54e7757041e28a1523b708d"
-        },
-        {
             "date": 1691989410498,
             "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\successes\\phu-2023-14-08-11-success.log",
             "hash": "579e497cd5a2c568ad077d6ac278b7d304da8242366f4435f2071a7268c7e18c"
@@ -124,6 +109,11 @@
             "date": 1693152037535,
             "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\successes\\phu-2023-27-08-22-success.log",
             "hash": "471dc1708031a8fa97149ae6e1b60f774fa0f70285a6905ec8a09ccaa3273c4a"
+        },
+        {
+            "date": 1693196726406,
+            "name": "E:\\Code learning files\\1.1 appollo-level-2 course\\6.One_University_Project\\logs\\winston\\successes\\phu-2023-28-08-10-success.log",
+            "hash": "d79cf754d6c6517d7c756493ac2acae00ff57591e4282ff6dd89a3a322534286"
         }
     ],
     "hashType": "sha256"
