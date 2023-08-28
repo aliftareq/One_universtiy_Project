@@ -96,7 +96,7 @@ const createFaculty = async (
 ): Promise<IUser | null> => {
   //default password.
   if (!user.password) {
-    user.password = config.default_student_pass as string;
+    user.password = config.default_faculty_pass as string;
   }
 
   //set role
@@ -161,7 +161,7 @@ const createAdmin = async (
 ): Promise<IUser | null> => {
   //default password.
   if (!user.password) {
-    user.password = config.default_student_pass as string;
+    user.password = config.default_admin_pass as string;
   }
 
   //set role
