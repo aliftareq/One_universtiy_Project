@@ -2,13 +2,15 @@ import httpStatus from 'http-status';
 import ApiError from '../../../errors/ApiErrors';
 import { User } from '../user/user.model';
 import {
+  IChangePassword,
   ILoginUser,
   ILoginUserResponse,
   IRefreshTokenResponse,
 } from './auth.interface';
-import { Secret } from 'jsonwebtoken';
+import { JwtPayload, Secret } from 'jsonwebtoken';
 import config from '../../../config';
 import { jwtHelpers } from '../../../helper/jwtHelper';
+// import bcrypt from 'bcrypt';
 
 const loginUser = async (payload: ILoginUser): Promise<ILoginUserResponse> => {
   const { id, password } = payload;
@@ -93,7 +95,90 @@ const refreshToken = async (token: string): Promise<IRefreshTokenResponse> => {
   };
 };
 
+// const changePassword = async (
+//   user: JwtPayload | null,
+//   passwordData: IChangePassword
+// ): Promise<void> => {
+//   const { oldPassword, newPassword } = passwordData;
+
+//   //checkUser exist
+//   const isUserExist = await User.isUserExist(user?.userId);
+
+//   if (!isUserExist) {
+//     throw new ApiError(
+//       httpStatus.NOT_FOUND,
+//       "User regarding this id doesn't exist"
+//     );
+//   }
+
+//   //checking  old password
+//   if (
+//     isUserExist.password &&
+//     !(await User.isPasswordMatched(oldPassword, isUserExist?.password))
+//   ) {
+//     throw new ApiError(
+//       httpStatus.UNAUTHORIZED,
+//       'your old Password is Incorrect'
+//     );
+//   }
+
+//   //hash  password before saving
+//   const newHashPassword = await bcrypt.hash(
+//     newPassword,
+//     Number(config.bcrypt_salt_rounds)
+//   );
+
+//   const query = { id: user?.userId };
+//   const updatedData = {
+//     password: newHashPassword,
+//     needsPasswordChange: false,
+//     passwordChangeAt: new Date(),
+//   };
+
+//   //update Password
+//   await User.findOneAndUpdate(query, updatedData);
+// };
+
+/*alternative way*/
+const changePassword = async (
+  user: JwtPayload | null,
+  passwordData: IChangePassword
+): Promise<void> => {
+  const { oldPassword, newPassword } = passwordData;
+
+  //checkUser exist
+  const isUserExist = await User.findOne({ id: user?.userId }).select(
+    '+password'
+  );
+  console.log(isUserExist);
+  if (!isUserExist) {
+    throw new ApiError(
+      httpStatus.NOT_FOUND,
+      "User regarding this id doesn't exist"
+    );
+  }
+
+  //checking  old password
+  if (
+    isUserExist.password &&
+    !(await User.isPasswordMatched(oldPassword, isUserExist?.password))
+  ) {
+    throw new ApiError(
+      httpStatus.UNAUTHORIZED,
+      'your old Password is Incorrect'
+    );
+  }
+
+  // data update
+  isUserExist.password = newPassword;
+  isUserExist.needsPasswordChange = false;
+
+  //updating using save method
+  isUserExist.save();
+};
+
 export const AuthService = {
   loginUser,
   refreshToken,
+  changePassword,
 };
